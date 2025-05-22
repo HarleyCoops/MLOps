@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# ML specific
+*.h5
+*.pkl
+*.model
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Logs
+logs/
+*.log
+
+# Docker
+.docker/
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.feather
+*.db
+*.sqlite
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# AWS
+.aws/
+
+# Misc
+.coverage
+htmlcov/
+.pytest_cache/
+
